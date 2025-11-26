@@ -18,6 +18,7 @@ import {
   AlertTriangle,
   Smartphone,
   Activity,
+  Brain,
 } from "lucide-react"
 
 export function DashboardSidebar() {
@@ -41,6 +42,11 @@ export function DashboardSidebar() {
       title: "Threat Detection",
       href: "/dashboard/threats",
       icon: AlertTriangle,
+    },
+    {
+      title: "AI Analysis",
+      href: "/dashboard/ai-analysis",
+      icon: Brain,
     },
     {
       title: "Call Fraud",
